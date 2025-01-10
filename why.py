@@ -1,6 +1,8 @@
+#These are variable we are declaring
 unit = input(f"Enter the unit of temperature (C/K): ").upper()
 Degree = float(input(f"Enter the degree: "))
 
+#this is if statement and logic part
 if unit == "C":
     results = Degree + 273
     print(f"Your conversion is {results} K")
